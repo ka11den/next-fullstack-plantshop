@@ -1,0 +1,43 @@
+.products__title {
+    display: block;
+    margin: 0;
+}
+
+.products__card {
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    z-index: 100;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cyrcle__products {
+    position: absolute;
+    background-color: aliceblue;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    top: 20px;
+    z-index: -1;
+}
+
+.products__buy {
+    background-color: rgb(26, 78, 56);
+    border: none;
+    padding: 8px;
+    color: #ffff;
+    border-radius: 10px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.products__price {
+    font-weight: 600;
+}
+
+.products__container {
+    display: flex;
+}

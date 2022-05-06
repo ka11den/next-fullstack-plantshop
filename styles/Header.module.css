@@ -1,0 +1,61 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    font-size: 1em;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.header__span {
+    margin-left: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header__cart {
+    background-color: rgb(26, 78, 56);
+    border-radius: 15px;
+    padding: 0.5rem;
+    position: relative;
+    margin-left: 20px;
+    color: black;
+}
+
+.header__img {
+    width: 30px;
+    height: auto;
+}
+
+.header__span:hover {
+    cursor: pointer;
+    color: rgb(26, 78, 56);
+    transition: all 0.3s;
+}
+
+.header__cart__span {
+    background-color: #ffff;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-radius: 50px;
+    padding: 0.3rem 0.4rem;
+    font-size: 0.6em;
+    font-weight: 700;
+    color: black;
+}
+
+.logo {
+    font-weight: 800;
+}
+
